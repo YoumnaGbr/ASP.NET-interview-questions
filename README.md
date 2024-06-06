@@ -6,8 +6,8 @@
 
 | No. | Questions |
 |---- | ---------
-|1 |  [What is MVC?](#what-is-mvc) |
-|2 | [Explain MVC design pattern?](#Explain-MVC-design-pattern?)|
+|1 | [What is MVC?](#what-is-mvc) |
+|2 | [Explain MVC design pattern?] (#Explain-MVC-design-pattern?)|
 |3 | [What is Domain Driven Design and Development?](#What-is-Domain-Driven-Design-and-Development?)|
 |4 | [What is MVP pattern?](#What-is-MVP-pattern?)|
 |5 | [What is MVVM pattern?](#What-is-MVVM-pattern?)|
@@ -146,7 +146,7 @@ The Controller is the part of the application that handles user interaction. Typ
 The MVC separation helps you manage complex applications, because you can focus on one aspect a time. For example, you can focus on the view without depending on the business logic. It also makes it easier to test an application.
 
 
-### What are the advantages of MVC?
+### What are the advantages of MVC? <a name="what-are-advantages-of-aspnet-mvc"></a>
 
 Multiple view support - Due to the separation of the model from the view, the user interface can display multiple views of the same data at the same time.
 
@@ -1326,7 +1326,7 @@ Supports OWIN:
 
 We have complete control over the composable pipeline in MVC 6 applications. MVC 6 supports the OWIN abstraction.
 
-### What is Domain Driven Design and Development?
+### What is Domain Driven Design and Development? <a name="#What-is-Domain-Driven-Design-and-Development?"></a>
 
 Domain-Driven Design (DDD) is a collection of principles and patterns that help developers to take design decisions to develop elegant systems for different domains. It is not a technology or methodology.
 
@@ -1346,7 +1346,7 @@ Repository- A repository is responsible to store and to retrieve your data. It i
 
 For more info refer this link http://msdn.microsoft.com/en-us/magazine/dd419654.aspx
 
-### What is MVP pattern?
+### What is MVP pattern? <a name="What-is-MVP-pattern?"></a>
 
 This pattern is similar to MVC pattern in which controller has been replaced by the presenter. This design pattern splits an application into three main aspects: Model, View and Presenter.
 
@@ -1373,7 +1373,7 @@ View has a reference to Presenter but View has not reference to Model.
 
 Provides two way communication between View and Presenter.
 
-### What is MVVM pattern?
+### What is MVVM pattern? <a name="What-is-MVVM-pattern?"></a>
 
 MVVM stands for Model-View-View Model. This pattern supports two-way data binding between view and View model. This enables automatic propagation of changes, within the state of view model to the View. Typically, the view model uses the observer pattern to notify changes in the view model to model.
 
